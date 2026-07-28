@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Custom Dark Background",
+  "version": "1.0",
+  "description": "Change the background color to the color of your choice.",
+
+  
+  "browser_action": {
+    "default_title": "Custom Dark Background",
+    "default_popup": "./popup/popup.html"
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["css/common.css"],
+      "js": ["script.js"]
+    },
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "css": ["css/youtube.css"]
+    }
+  ]
+}

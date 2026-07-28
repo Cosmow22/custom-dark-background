@@ -1,0 +1,4 @@
+ytd-app,
+#frosted-glass {
+    background-color: var(--my-background, #262C3C) !important;
+}
