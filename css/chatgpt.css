@@ -1,0 +1,11 @@
+:root {
+    --component-sidebar-bg: var(--my-background, #262C3C) !important;
+}
+
+.dark {
+    --bg-primary: color-mix(in srgb, var(--my-background) 70%, black);
+}
+
+#thread-bottom-container {
+    display: none !important;
+}
