@@ -12,19 +12,24 @@ h2 {
     text-shadow: 0 0 10px #55CC80;
 }
 
+label {
+    text-shadow: 0 0 10px #55CC80
+}
 
 input {
     background-color: #C4EDD3;
     border-color: #55CC80;
     outline: none;
+    box-shadow: 0 0 10px #55CC80;
+
 }
 
 button {
     background-color: #55CC80;
     color: rgb(10,10,10);
-    border-color: #C4EDD3;;
-    border-style: solid;
+    border-color: #55CC80;
     font-weight: bold;
+    box-shadow: 0 0 5px #55CC80;
 }
 
 button:hover {
@@ -32,5 +37,5 @@ button:hover {
 }
 
 button:active {
-    transform: scale(0.95);
+    transform: scale(0.8);
 }
