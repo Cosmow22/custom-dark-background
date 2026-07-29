@@ -9,11 +9,14 @@ body {
 
 h2 {
     font: 1.2em "Orbitron", sans-serif;
+    text-shadow: 0 0 10px #55CC80;
 }
+
 
 input {
     background-color: #C4EDD3;
     border-color: #55CC80;
+    outline: none;
 }
 
 button {
