@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body {
-    background-color: red;
+    background-color: rgb(10,10,10);
+    color: #55CC80;
+    font-family: "Inter", sans-serif;
+}
+
+h2 {
+    font: 1.2em "Orbitron", sans-serif;
+}
+
+input {
+    background-color: #C4EDD3;
+    border-color: #55CC80;
+}
+
+button {
+    background-color: #55CC80;
+    color: rgb(10,10,10);
+    border-color: #C4EDD3;;
+    border-style: solid;
+}
+
+button:hover {
+    background-color: #89dca7;
+}
+
+button:active {
+    transform: scale(0.95);
 }
