@@ -1,0 +1,17 @@
+:root {
+    --color-hinted-grey-1: var(--my-background) !important;
+    --color-hinted-grey-2: var(--secondary) !important;
+    --seventv-background-transparent-1: var(--secondary) !important;
+}
+
+.top-nav__menu,
+.side-bar-contents,
+.chat-room,
+.collapse-toggle,
+.jmERFg {
+    background-color: var(--my-background) !important;
+}
+
+.dduVcl {
+    background-color: var(--secondary) !important;
+}

@@ -47,6 +47,10 @@
     {
       "matches": ["*://*.github.com/*"],
       "css": ["css/github.css"]
+    },
+    {
+      "matches": ["*://*.twitch.tv/*"],
+      "css": ["css/twitch.css"]
     }
   ]
 }
