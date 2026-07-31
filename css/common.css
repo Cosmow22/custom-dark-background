@@ -1,4 +1,7 @@
+:root {
+    --secondary: color-mix(in srgb, var(--my-background) 70%, black) !important;
+}
+
 body {
     background-color: var(--my-background, #262C3C) !important;
-
 }

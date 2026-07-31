@@ -35,6 +35,18 @@
     {
       "matches": ["*://*.qwant.com/*"],
       "css": ["css/qwant.css"]
+    },
+    {
+      "matches": ["*://*.google.com/*"],
+      "css": ["css/google.css"]
+    },
+    {
+      "matches": ["*://*.radiofrance.fr/*"],
+      "css": ["css/radiofrance.css"]
+    },
+    {
+      "matches": ["*://*.github.com/*"],
+      "css": ["css/github.css"]
     }
   ]
 }

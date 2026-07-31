@@ -3,11 +3,21 @@
 }
 
 .dark {
-    --bg-primary: color-mix(in srgb, var(--my-background) 70%, black);
+    --bg-primary: var(--secondary) !important;
+}
+
+.user-message-bubble-color,
+.dark [data-composer-surface="true"],
+.popover {
+    background-color: var(--secondary) !important;
 }
 
 :is(.Ejxyja_threadFooterContentFade, .Ejxyja_threadFooterExtendedContentFade)::after {
     -webkit-mask-image: none !important;
     mask-image: none !important;
     background: none !important;
+}
+
+html.dark :not(:where(.light, .light *)) {
+    --main-surface-primary: var(--secondary) !important;
 }

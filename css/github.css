@@ -1,0 +1,17 @@
+[data-color-mode="auto"][data-dark-theme="dark_dimmed"] {
+    --bgColor-default: var(--my-background) !important;
+    --bgColor-inset: var(--secondary) !important;
+    --bgColor-muted: var(--secondary) !important;
+    --controlTrack-bgColor-rest: var(--secondary) !important;
+    --header-bgColor: var(--secondary) !important;
+    --menu-bgColor-active: var(--secondary) !important;
+    --button-default-bgColor-rest: var(--secondary) !important; 
+}
+
+pre, 
+.snippet-clipboard-content, 
+.highlight-source-batchfile, 
+[class^="DirectoryContent-module__Box"],
+[role="dialog"] {
+    background-color: var(--secondary) !important;
+}
