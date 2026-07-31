@@ -31,6 +31,10 @@
     {
       "matches": ["*://*.mail.google.com/*"],
       "css": ["css/gmail.css"]
+    },
+    {
+      "matches": ["*://*.qwant.com/*"],
+      "css": ["css/qwant.css"]
     }
   ]
 }
