@@ -6,6 +6,8 @@
     --bg-primary: color-mix(in srgb, var(--my-background) 70%, black);
 }
 
-#thread-bottom-container {
-    display: none !important;
+:is(.Ejxyja_threadFooterContentFade, .Ejxyja_threadFooterExtendedContentFade)::after {
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+    background: none !important;
 }
