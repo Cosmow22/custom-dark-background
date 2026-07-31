@@ -1,7 +1,9 @@
-html {
+/*!  Disable ambient mode to ensure compatibility */
+
+/* html {
   --yt-spec-base-background: var(--my-background, #262C3C) !important;
   --yt-spec-raised-background: var(--my-background, #262C3C) !important;
-}
+} */
 
 ytd-app,
 #frosted-glass {
