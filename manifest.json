@@ -23,6 +23,14 @@
     {
       "matches": ["*://*.youtube.com/*"],
       "css": ["css/youtube.css"]
+    },
+    {
+      "matches": ["*://*.chatgpt.com/*"],
+      "css": ["css/chatgpt.css"]
+    },
+    {
+      "matches": ["*://*.mail.google.com/*"],
+      "css": ["css/gmail.css"]
     }
   ]
 }
