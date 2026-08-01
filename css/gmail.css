@@ -8,3 +8,11 @@ body,
 div[role="main"] {
     background-color: #262C3C !important;
 } */
+
+.nH, .gb_Td  {
+    background-color: var(--my-background, #262C3C) !important;
+}
+
+tr:not(:first-of-type) {
+    background-color: var(--secondary) !important;
+}
