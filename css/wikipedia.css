@@ -1,0 +1,11 @@
+.mw-page-container, .vector-header  {
+    background-color: var(--my-background, #262C3C) !important;
+}
+
+.vector-sticky-pinned-container::after {
+    background: none !important;
+}
+
+.cdx-text-input__input, .cdx-button {
+    background-color: var(--secondary) !important;
+}
