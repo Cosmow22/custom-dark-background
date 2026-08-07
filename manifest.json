@@ -63,7 +63,7 @@
       "css": ["css/twitch.css"]
     },
     {
-      "matches": ["*://*.wikipedia.org/*"],
+      "matches": ["*://*.fr.wikipedia.org/*"],
       "css": ["css/wikipedia.css"]
     }
   ]
