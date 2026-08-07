@@ -19,9 +19,7 @@ btn.addEventListener("click", () => {
         if (!error) {
             const p = document.createElement("p");
             p.id = "error-message";
-            p.style.color = "red";
             p.textContent = "⚠️ Invalid color format.";
-    
             document.body.appendChild(p);
          }
     }

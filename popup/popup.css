@@ -39,3 +39,7 @@ button:hover {
 button:active {
     transform: scale(0.8);
 }
+
+#error-message {
+    color: #cf1020;
+}
