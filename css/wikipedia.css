@@ -1,4 +1,9 @@
-.mw-page-container, .vector-header  {
+:root {
+    --background-color-neutral-subtle: var(--secondary, #262C3C) !important;
+    --background-color-base: var(--my-background, #262C3C) !important;
+}
+
+.mw-page-container, .vector-header, .bandeau-container {
     background-color: var(--my-background, #262C3C) !important;
 }
 
@@ -6,6 +11,8 @@
     background: none !important;
 }
 
-.cdx-text-input__input, .cdx-button {
+.cdx-text-input__input, 
+.cdx-search-input__end-button,
+figure {
     background-color: var(--secondary) !important;
 }
