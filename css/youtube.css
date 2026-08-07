@@ -1,11 +1,28 @@
 /*!  Disable ambient mode to ensure compatibility */
 
 /* html {
-  --yt-spec-base-background: var(--my-background, #262C3C) !important;
-  --yt-spec-raised-background: var(--my-background, #262C3C) !important;
+	--yt-spec-base-background: var(--my-background, #262C3C) !important;
+	--yt-spec-raised-background: var(--my-background, #262C3C) !important;
 } */
 
 ytd-app,
+#page-header-banner,
+#page-header,
+#tabs-inner-container,
+.ytd-masthead,
 #frosted-glass {
     background-color: var(--my-background, #262C3C) !important;
+}
+
+.ytSearchboxComponentInputBox, 
+.ytSearchboxComponentInputBoxDark,
+.ytSearchboxComponentSuggestionsContainer, 
+.ytSearchboxComponentSuggestionsContainerDark,
+.ytSearchboxComponentSuggestionsContainerScrollable,
+.ytd-popup-container {
+	background-color: var(--secondary) !important;
+}
+
+.ytd-popup-container {
+	border-radius: 12px !important;
 }
