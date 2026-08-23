@@ -19,7 +19,9 @@ ytd-app,
 .ytSearchboxComponentSuggestionsContainer, 
 .ytSearchboxComponentSuggestionsContainerDark,
 .ytSearchboxComponentSuggestionsContainerScrollable,
-.ytd-popup-container {
+.ytd-popup-container,
+ytd-post-renderer,
+ytd-backstage-post-renderer {
 	background-color: var(--secondary) !important;
 }
 

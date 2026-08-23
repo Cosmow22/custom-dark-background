@@ -1,6 +1,7 @@
 :root {
     --background-color-neutral-subtle: var(--secondary, #262C3C) !important;
     --background-color-base: var(--my-background, #262C3C) !important;
+    --background-color-interactive: var(--secondary, #262C3C) !important
 }
 
 .mw-page-container, .vector-header, .bandeau-container {
