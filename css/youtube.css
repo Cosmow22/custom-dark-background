@@ -1,8 +1,8 @@
 /*!  Disable ambient mode to ensure compatibility */
 
 /* html {
-	--yt-spec-base-background: var(--my-background, #262C3C) !important;
-	--yt-spec-raised-background: var(--my-background, #262C3C) !important;
+	--yt-spec-base-background: var(--custom-background-color, #262C3C) !important;
+	--yt-spec-raised-background: var(--custom-background-color, #262C3C) !important;
 } */
 
 ytd-app,
@@ -11,7 +11,7 @@ ytd-app,
 #tabs-inner-container,
 .ytd-masthead,
 #frosted-glass {
-    background-color: var(--my-background, #262C3C) !important;
+    background-color: var(--custom-background-color, #262C3C) !important;
 }
 
 .ytSearchboxComponentInputBox, 
@@ -22,7 +22,7 @@ ytd-app,
 .ytd-popup-container,
 ytd-post-renderer,
 ytd-backstage-post-renderer {
-	background-color: var(--secondary) !important;
+	background-color: var(--custom-background-color-dark) !important;
 }
 
 .ytd-popup-container {

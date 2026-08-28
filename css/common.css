@@ -1,7 +1,7 @@
 :root {
-    --secondary: color-mix(in srgb, var(--my-background) 70%, black) !important;
+    --custom-background-color-dark: color-mix(in srgb, var(--custom-background-color) 70%, black) !important;
 }
 
 body {
-    background-color: var(--my-background, #1E222F) !important;
+    background-color: var(--custom-background-color, #1E222F) !important;
 }

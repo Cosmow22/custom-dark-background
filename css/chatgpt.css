@@ -1,15 +1,15 @@
 :root {
-    --component-sidebar-bg: var(--my-background, #262C3C) !important;
+    --component-sidebar-bg: var(--custom-background-color) !important;
 }
 
 .dark {
-    --bg-primary: var(--secondary) !important;
+    --bg-primary: var(--custom-background-color-dark) !important;
 }
 
 .user-message-bubble-color,
 .dark [data-composer-surface="true"],
 .popover {
-    background-color: var(--secondary) !important;
+    background-color: var(--custom-background-color-dark) !important;
 }
 
 :is(.Ejxyja_threadFooterContentFade, .Ejxyja_threadFooterExtendedContentFade)::after {
@@ -19,5 +19,5 @@
 }
 
 html.dark :not(:where(.light, .light *)) {
-    --main-surface-primary: var(--secondary) !important;
+    --main-surface-primary: var(--custom-background-color-dark) !important;
 }

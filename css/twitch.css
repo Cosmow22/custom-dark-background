@@ -1,7 +1,7 @@
 :root {
-    --color-hinted-grey-1: var(--my-background) !important;
-    --color-hinted-grey-2: var(--secondary) !important;
-    --seventv-background-transparent-1: var(--secondary) !important;
+    --color-hinted-grey-1: var(--custom-background-color) !important;
+    --color-hinted-grey-2: var(--custom-background-color-dark) !important;
+    --seventv-background-transparent-1: var(--custom-background-color-dark) !important;
 }
 
 .top-nav__menu,
@@ -9,29 +9,29 @@
 .chat-room,
 .collapse-toggle,
 .jmERFg {
-    background-color: var(--my-background) !important;
+    background-color: var(--custom-background-color) !important;
 }
 
 .dduVcl {
-    background-color: var(--secondary) !important;
+    background-color: var(--custom-background-color-dark) !important;
 }
 
 .dUHnPJ:hover {
-    background-color: var(--secondary) !important;
+    background-color: var(--custom-background-color-dark) !important;
 }
 
 .gmVVHc, .gDjAtR {
-    background-color: var(--secondary) !important;
+    background-color: var(--custom-background-color-dark) !important;
     border-top-left-radius: 0.6rem !important;
     border-top-right-radius: 0.6rem !important;
 }
 
 .dQMmwU:hover {
-    background-color: var(--my-background) !important;
+    background-color: var(--custom-background-color) !important;
 }
 
 .jguGVw {
-    background-color: var(--secondary) !important;
+    background-color: var(--custom-background-color-dark) !important;
     border-radius: 0.6rem !important;
 }
 

@@ -1,11 +1,11 @@
 [data-color-mode="auto"][data-dark-theme="dark_dimmed"] {
-    --bgColor-default: var(--my-background) !important;
-    --bgColor-inset: var(--secondary) !important;
-    --bgColor-muted: var(--secondary) !important;
-    --controlTrack-bgColor-rest: var(--secondary) !important;
-    --header-bgColor: var(--secondary) !important;
-    --menu-bgColor-active: var(--secondary) !important;
-    --button-default-bgColor-rest: var(--secondary) !important; 
+    --bgColor-default: var(--custom-background-color) !important;
+    --bgColor-inset: var(--custom-background-color-dark) !important;
+    --bgColor-muted: var(--custom-background-color-dark) !important;
+    --controlTrack-bgColor-rest: var(--custom-background-color-dark) !important;
+    --header-bgColor: var(--custom-background-color-dark) !important;
+    --menu-bgColor-active: var(--custom-background-color-dark) !important;
+    --button-default-bgColor-rest: var(--custom-background-color-dark) !important; 
 }
 
 pre, 
@@ -13,5 +13,5 @@ pre,
 .highlight-source-batchfile, 
 [class^="DirectoryContent-module__Box"],
 [role="dialog"] {
-    background-color: var(--secondary) !important;
+    background-color: var(--custom-background-color-dark) !important;
 }
