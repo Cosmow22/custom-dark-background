@@ -1,18 +1,11 @@
-/* .tVu25, .vY {
+.nH:first-of-type, .gb_Td  {
     background-color: var(--my-background, #262C3C) !important;
 }
 
-body,
-.a3s,
-.ii.gt,
-div[role="main"] {
-    background-color: #262C3C !important;
-} */
-
-.nH, .gb_Td  {
-    background-color: var(--my-background, #262C3C) !important;
+.a98, .V8djrc, .ady {
+    background-color: white  !important;
 }
 
-tr:not(:first-of-type) {
+tr.zA {
     background-color: var(--secondary) !important;
-}
+}   
