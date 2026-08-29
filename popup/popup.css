@@ -40,6 +40,11 @@ button:active {
     transform: scale(0.8);
 }
 
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
 #error-message {
     color: #cf1020;
 }

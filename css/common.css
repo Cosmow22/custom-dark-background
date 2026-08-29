@@ -4,5 +4,5 @@
 }
 
 body {
-    background-color: var(--custom-background-color, #1E222F) !important;
+    background-color: var(--custom-background-color) !important;
 }

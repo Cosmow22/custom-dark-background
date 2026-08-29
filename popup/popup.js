@@ -4,6 +4,7 @@ const rgb = new RegExp("^rgb\\((25[0-5]|2[0-4]\\d|1?\\d?\\d),\\s*(25[0-5]|2[0-4]
 
 const btn = document.getElementById("btn");
 const colorInput = document.getElementById("color");
+const defaultBackground = document.getElementById("default-background");
 
 btn.addEventListener("click", () => {
     let color = colorInput.value;
@@ -23,4 +24,10 @@ btn.addEventListener("click", () => {
             document.body.appendChild(p);
          }
     }
+});
+
+defaultBackground.addEventListener("change", () => {
+    browser.storage.local.set({
+        defaultBackground: defaultBackground.checked
+    });
 });
