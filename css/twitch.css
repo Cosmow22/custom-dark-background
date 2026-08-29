@@ -4,15 +4,20 @@
     --seventv-background-transparent-1: var(--custom-background-color-dark) !important;
 }
 
-.top-nav__menu,
 .side-bar-contents,
 .chat-room,
 .collapse-toggle,
-.jmERFg {
+.jmERFg,
+.cGIeJY,
+.jzrvvM {
     background-color: var(--custom-background-color) !important;
 }
 
-.dduVcl {
+.dduVcl,
+.top-nav__menu,
+.channel-info-content,
+.fxMEFl,
+.fxdmZj {
     background-color: var(--custom-background-color-dark) !important;
 }
 
@@ -34,5 +39,3 @@
     background-color: var(--custom-background-color-dark) !important;
     border-radius: 0.6rem !important;
 }
-
-/* fxdmZj <- le menu en haut à droite*/
