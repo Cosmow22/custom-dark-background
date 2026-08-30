@@ -6,6 +6,18 @@ const btn = document.getElementById("btn");
 const colorInput = document.getElementById("color");
 const defaultBackground = document.getElementById("default-background");
 
+browser.storage.local.get([
+    "backgroundColor",
+    "defaultBackground"
+]).then((result) => {
+    
+    defaultBackground.checked = result.defaultBackground ?? false;
+
+    if (result.backgroundColor) {
+        colorInput.value = result.backgroundColor;
+    }
+});
+
 btn.addEventListener("click", () => {
     let color = colorInput.value;
     console.log("the input color is: " + color);
