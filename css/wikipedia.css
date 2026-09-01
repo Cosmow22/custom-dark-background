@@ -1,11 +1,11 @@
 :root {
-    --background-color-neutral-subtle: var(--custom-background-color-dark, #262C3C) !important;
-    --background-color-base: var(--custom-background-color, #262C3C) !important;
-    --background-color-interactive: var(--custom-background-color-dark, #262C3C) !important
+    --background-color-base: var(--custom-background-color) !important;
+    --background-color-neutral-subtle: var(--custom-background-color) !important;
+    --background-color-interactive: var(--custom-background-color-dark) !important
 }
 
 .mw-page-container, .vector-header, .bandeau-container {
-    background-color: var(--custom-background-color, #262C3C) !important;
+    background-color: var(--custom-background-color) !important;
 }
 
 .vector-sticky-pinned-container::after {

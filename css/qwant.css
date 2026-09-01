@@ -1,4 +1,8 @@
 body {
-    --background-color: var(--custom-background-color, #262C3C) !important;
-    --color-elevation-surface: var(--custom-background-color, #262C3C) !important;
+    --background-color: var(--custom-background-color) !important;
+    --color-elevation-surface: var(--custom-background-color) !important;
+}
+
+.rF5Oi {
+    background-color: var(--custom-background-color-dark) !important;
 }

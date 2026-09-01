@@ -11,7 +11,7 @@ ytd-app,
 #tabs-inner-container,
 .ytd-masthead,
 #frosted-glass {
-    background-color: var(--custom-background-color, #262C3C) !important;
+    background-color: var(--custom-background-color) !important;
 }
 
 .ytSearchboxComponentInputBox, 
