@@ -1,15 +1,13 @@
 (async () => {
     const { backgroundColor } = await browser.storage.local.get("backgroundColor");
+
+    document.documentElement.style.setProperty(
+        "--custom-background-color", backgroundColor
+    );
+
     const { defaultBackground } = await browser.storage.local.get("defaultBackground");
     
-    if (defaultBackground !== false && backgroundColor) {
-        document.documentElement.style.setProperty(
-            "--custom-background-color", backgroundColor
-        );
-    } else {
-        document.documentElement.style.removeProperty(
-            "--custom-background-color"
-        );
+    if (defaultBackground) {
+        document.documentElement.classList.add("custom-dark-background");
     }
-    
 })();
