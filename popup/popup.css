@@ -24,6 +24,10 @@ input {
 
 }
 
+input[type="checkbox"] {
+    accent-color: #55CC80;
+}
+
 button {
     background-color: #55CC80;
     color: rgb(10,10,10);
