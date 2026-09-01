@@ -3,6 +3,10 @@
     --custom-background-color-light: color-mix(in srgb, var(--custom-background-color) 95%, white); 
 }
 
-body {
+html.custom-dark-background body {
+    background-color: var(--custom-background-color) !important;
+}
+
+/*body {
     background-color: var(--custom-background-color) !important;
 }
