@@ -1,0 +1,17 @@
+:root {
+    --base: #cf1020 !important;
+    --base-light: #ef2a3a;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}

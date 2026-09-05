@@ -1,47 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Tektur:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+:root {
+    --black: rgb(10,10,10); 
+    --base: #55CC80;
+    --base-light: #89dca7;
+}
+
 body {
-    background-color: rgb(10,10,10);
-    color: #55CC80;
+    background-color: var(--black);
+    color: var(--base);
     font-family: "Inter", sans-serif;
+    box-shadow: inset 0 0 10px var(--base-light);
+    margin: 0;
+    padding: 10px;
+
 }
 
-h2 {
+h1 {
     font: 1.2em "Orbitron", sans-serif;
-    text-shadow: 0 0 10px #55CC80;
+    text-shadow: 0 0 10px var(--base);
+    display: flex;
+    justify-content: center;
 }
 
-label {
-    text-shadow: 0 0 10px #55CC80
+label, p {
+    text-shadow: 0 0 10px var(--base)
 }
 
 input {
     background-color: #C4EDD3;
-    border-color: #55CC80;
+    border-color: var(--base);
     outline: none;
-    box-shadow: 0 0 10px #55CC80;
+    box-shadow: 0 0 10px var(--base);
 
 }
 
 input[type="checkbox"] {
-    accent-color: #55CC80;
+    accent-color: var(--base);
 }
 
 button {
-    background-color: #55CC80;
-    color: rgb(10,10,10);
-    border-color: #55CC80;
-    font-weight: bold;
-    box-shadow: 0 0 5px #55CC80;
+    background-color: var(--base);
+    color: var(--black);
+    border-color: var(--base);
+    box-shadow: 0 0 5px var(--base);
 }
 
 button:hover {
-    background-color: #89dca7;
-}
-
-button:active {
-    transform: scale(0.8);
+    background-color: var(--base-light);
+    border-color:var(--base-light);
+    box-shadow: 0 0 5px var(--base-light);
 }
 
 label {
@@ -49,6 +58,10 @@ label {
     margin-bottom: 10px;
 }
 
-#error-message {
-    color: #cf1020;
+#apply-button {
+    font-weight: bold;
+}
+
+#apply-button:active {
+    transform: scale(0.8);
 }
