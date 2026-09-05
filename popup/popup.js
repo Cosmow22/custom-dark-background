@@ -26,6 +26,7 @@ btn.addEventListener("click", () => {
         const error = document.getElementById("error-message");
         if (error) { error.remove();}
         browser.storage.local.set({ backgroundColor: colorInput.value });
+        window.location.href = "refreshpage/refresh.html";
     } else {
         console.log("the input format is incorrect");
         const error = document.getElementById("error-message");
