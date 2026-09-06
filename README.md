@@ -33,7 +33,7 @@ To test the project locally :
 
 1. download the project
 2. make your changes
-3. go to [the Firefox debugging page](about:debugging#/runtime/this-firefox)
+3. go to: about:debugging#/runtime/this-firefox
 4. click to "Load Temporary Add-on"
 5. select manifest.json
 
