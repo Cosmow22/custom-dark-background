@@ -25,7 +25,7 @@ Any questions, requests or suggestions?
 Or would you like to suggest a website to be added?
 Please contact me at the following address : <contact@cosmow22.fr>
 
-You can contribute to the project by adding a site via a pull request.
+You can contribute to the project by adding a site via a pull request or by opening an issue.
 
 ## Testing
 
