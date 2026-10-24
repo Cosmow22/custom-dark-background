@@ -5,7 +5,6 @@ A Firefox add-on that lets you change the background color to a dark shade of yo
 Download from [this link](https://addons.mozilla.org/fr/firefox/addon/my-custom-dark-background/).
 
 Works on:
-- chatgpt
 - github
 - gmail
 - google

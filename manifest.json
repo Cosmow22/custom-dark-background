@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Custom Dark Background",
-  "version": "1.2",
+  "version": "1.3",
   "description": "Change the background color to the color of your choice.",
    "icons": {
     "48": "icons/icon-48.png"
@@ -41,10 +41,6 @@
     {
       "matches": ["*://*.youtube.com/*"],
       "css": ["css/youtube.css"]
-    },
-    {
-      "matches": ["*://*.chatgpt.com/*"],
-      "css": ["css/chatgpt.css"]
     },
     {
       "matches": ["*://*.mail.google.com/*"],
