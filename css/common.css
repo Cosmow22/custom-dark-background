@@ -6,7 +6,3 @@
 html.custom-dark-background body {
     background-color: var(--custom-background-color) !important;
 }
-
-/*body {
-    background-color: var(--custom-background-color) !important;
-}
